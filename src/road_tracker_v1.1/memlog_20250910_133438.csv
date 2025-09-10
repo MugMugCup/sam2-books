@@ -1,0 +1,4 @@
+timestamp,stage,rss_mb,vms_mb,py_current_mb,py_peak_mb,cuda_alloc_mb,cuda_reserved_mb
+2025-09-10 13:34:49,after_extract_frames,584.461,1609.684,1.270,34.473,0.000,0.000
+2025-09-10 13:34:53,after_init_state,1299.820,4557.738,14.977,42.110,1207.576,1876.000
+2025-09-10 13:34:53,load_video_done,1299.867,4557.773,15.003,42.110,1207.576,1876.000
