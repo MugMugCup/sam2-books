@@ -10,5 +10,6 @@ outputs/*
 checkpoints/*.pt
 demo/backend/checkpoints/*.pt
 
-data/*
+data/**
+!data/**/ */
 !data/**/.gitkeep
