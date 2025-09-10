@@ -11,4 +11,4 @@ checkpoints/*.pt
 demo/backend/checkpoints/*.pt
 
 data/*
-!data/.gitkeep
+!data/**/.gitkeep
