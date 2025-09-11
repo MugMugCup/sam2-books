@@ -82,8 +82,10 @@ def resolve_for_hydra(path_like: str) -> str:
 VIDEO: Optional[str] = None  # 例: r"C:\\path\\to\\video.mp4"。None のままだと起動時にファイル選択ダイアログが開きます
 # CHECKPOINT: str = r"./checkpoints/sam2.1_hiera_large.pt"
 # CONFIG_YAML: str = r"configs/sam2.1/sam2.1_hiera_l.yaml"
-CHECKPOINT: str = resolve_for_hydra("../../checkpoints/sam2.1_hiera_large.pt")
-CONFIG_YAML: str = resolve_for_hydra("../../configs/sam2.1/sam2.1_hiera_l.yaml")
+# CHECKPOINT: str = resolve_for_hydra("../../checkpoints/sam2.1_hiera_large.pt")
+CHECKPOINT: str = resolve_for_hydra("../../checkpoints/sam2.1_hiera_tiny.pt")
+# CONFIG_YAML: str = resolve_for_hydra("../../configs/sam2.1/sam2.1_hiera_l.yaml")
+CONFIG_YAML: str = resolve_for_hydra("../../configs/sam2.1/sam2.1_hiera_t.yaml")
 
 # 速度やメモリに関するオプション
 VOS_OPTIMIZED: bool = False       # torch.compile 最適化（PyTorch 2.5.1+）

@@ -13,3 +13,6 @@ demo/backend/checkpoints/*.pt
 data/**
 !data/**/
 !data/**/.gitkeep
+
+src/**/*.jpg
+src/**/*.mp4
